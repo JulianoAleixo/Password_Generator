@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+</head>
+
+<body>
+
+    <section class="container">
+        <h1>PASSWORD GENERATOR</h1>
+
+        <div class="senha-gerada">Select the options</div>
+
+        <div class="options">
+            <label for="numChar">Number of digits:</label>
+            <input type="number" id="numChar" min="1" max="50" class="qtd-caracteres" value="10">
+        </div>
+        <div class="options">
+            <label for="addUpperCase">Add uppercase</label>
+            <input type="checkbox" id="addUpperCase" class="chk-maiusculas" checked>
+        </div>
+        <div class="options">
+            <label for="addLowerCase">Add lowercase</label>
+            <input type="checkbox" id="addLowerCase" class="chk-minusculas">
+        </div>
+        <div class="options">
+            <label for="addNum">Add numbers</label>
+            <input type="checkbox" id="addNum" class="chk-numero">
+        </div>
+        <div class="options">
+            <label for="addSbl">Add Symbols</label>
+            <input type="checkbox" id="addSbl" class="chk-simbolo">
+        </div>
+
+        <div class="centerButton">
+            <button class="gerar-senha">GET PASSWORD</button>
+        </div>
+    </section>
+    <script src="assets/js/bundle.js"></script>
+</body>
+
+</html>
